@@ -1,0 +1,62 @@
+.header {
+  min-height: 600px;
+  max-height: 756px;
+  /* Parámetros para la sección del encabezado */
+  position: relative;
+  background-color: #f2f2f2;
+  z-index: -2;
+  overflow: hidden;
+  padding: 30px 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header__logo {
+  width: 154px;
+  height: 31px;
+}
+
+.header__title {
+  width: 730px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.header__subtitle {
+  width: 388px;
+  z-index: 3;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.header__main-illustration {
+  width: 756px;
+  height: 608px;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+}
+
+/* Aquí tenemos dos ejemplos de selectores para 
+recordarte cómo configurar los estilos de los elementos*/
+.header__square {
+  height: 568px;
+  width: 568px;
+  background-color: #2f80ed;
+  border: 0px solid #2f80ed;
+  position: absolute;
+  top: 64px;
+  right: 0;
+  z-index: -1;
+}
