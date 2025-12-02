@@ -1,0 +1,26 @@
+.footer{
+    min-height: 350px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: #3f3f3f;
+}
+
+.footer__columns{}
+
+.footer__column_content_copyright{}
+
+.footer__column_content_about{}
+
+.footer__column_content_social{}
+
+.logo__place_footer{}
+
+.footer__author{}
+
+.footer__column-heading{}
+
+.footer__list{}
+
+.footer__column-link{}
+
+.footer__social-icons{}
